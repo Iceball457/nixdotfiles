@@ -18,8 +18,8 @@
 	# cursor.no_hardware_cursors = true;
 
 	home.pointerCursor = {
-		gtk.enable = ture;
-		package = pkgs.nordzy-cursor-theme
+		gtk.enable = true;
+		package = pkgs.nordzy-cursor-theme;
 	};
 
 	fonts.packages = with pkgs; [
