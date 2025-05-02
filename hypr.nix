@@ -11,6 +11,8 @@
 		librewolf
         kdePackages.dolphin
 		vscode
+		hyprcursor
+		nordzy-cursor-theme
 	];
 
 	fonts.packages = with pkgs; [
