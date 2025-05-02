@@ -15,6 +15,7 @@
 	boot.loader.systemd-boot.enable = true;
 	boot.loader.efi.canTouchEfiVariables = true;
 
+	services.displayManager.sddm.wayland.enable = true;
 	services.xserver.displayManager.sddm.enable = true; 
 
 	networking.hostName = "coldsnap"; # Define your hostname.
