@@ -9,7 +9,7 @@
 		hyprpaper
 		hyprshot
 		librewolf
-        kdePackages.dolphin
+        nautilus
 		vscode
 		hyprcursor
 		nwg-look
