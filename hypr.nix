@@ -19,6 +19,7 @@
 		pop-gtk-theme
 		graphite-gtk-theme
 		yaru-theme
+		hyprlock
 	];
 
 	# cursor.no_hardware_cursors = true;

@@ -73,6 +73,11 @@
 		swaynotificationcenter
 		libnotify
 		playerctl
+		power-profiles-daemon
+		python3
+		rustc
+		cargo
+		rustfmt
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
