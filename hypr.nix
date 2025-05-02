@@ -9,11 +9,15 @@
 		hyprpaper
 		hyprshot
 		librewolf
-        	kdePackages.dolphin
+        kdePackages.dolphin
 		vscode
 		hyprcursor
-		nordzy-cursor-theme
 		nwg-look
+		nordzy-cursor-theme
+		graphite-cursors
+		pop-gtk-theme
+		graphite-gtk-theme
+		yaru-theme
 	];
 
 	# cursor.no_hardware_cursors = true;
