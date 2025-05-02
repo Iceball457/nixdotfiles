@@ -9,7 +9,6 @@
 		[ # Include the results of the hardware scan.
 			./hardware-configuration.nix
 			./hypr.nix
-		];
 
 	# Bootloader.
 	boot.loader.systemd-boot.enable = true;
@@ -70,6 +69,9 @@
 		wget
 		killall
 		pavucontrol
+		swaynotificationcenter
+		libnotify
+		playerctl
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are

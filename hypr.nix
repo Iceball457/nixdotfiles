@@ -7,8 +7,9 @@
 		wofi
 		waybar
 		hyprpaper
+		hyprshot
 		librewolf
-                kdePackages.dolphin
+        kdePackages.dolphin
 		vscode
 	];
 
