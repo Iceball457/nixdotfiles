@@ -69,7 +69,7 @@
     git
     wget
     librewolf
-    dolphin
+    kdePackages.dolphin
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
