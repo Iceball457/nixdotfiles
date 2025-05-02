@@ -10,7 +10,7 @@
 	];
 
 	fonts.packages = with pkgs; [
-		fonts-awesome
+		font-awesome
 		fira-code
 		fira-code-symbols
 	];
