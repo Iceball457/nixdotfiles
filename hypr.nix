@@ -13,11 +13,10 @@
 		vscode
 		hyprcursor
 		nordzy-cursor-theme
+		nwg-look
 	];
 
 	# cursor.no_hardware_cursors = true;
-
-	environment.variables = { WLR_NO_HARDWARE_CURSORS="1"; };
 
 	# home.pointerCursor = {
 	# 	gtk.enable = true;
