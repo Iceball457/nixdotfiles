@@ -10,6 +10,7 @@
 		hyprshot
 		librewolf
         nautilus
+		dolphin
 		vscode
 		hyprcursor
 		nwg-look
