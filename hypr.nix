@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, cursor, home, ... }:
 {
 	programs.hyprland.enable = true;
 
@@ -15,7 +15,7 @@
 		nordzy-cursor-theme
 	];
 
-	# cursor.no_hardware_cursors = true;
+	cursor.no_hardware_cursors = true;
 
 	home.pointerCursor = {
 		gtk.enable = true;
