@@ -4,7 +4,7 @@
 
 	environment.systemPackages = with pkgs; [
 		kitty
-		wwofi
+		wofi
 		waybar
 		hyprpaper
 		xdg-desktop-portal-hyprland
