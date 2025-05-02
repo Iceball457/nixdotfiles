@@ -15,6 +15,8 @@
 		nordzy-cursor-theme
 	];
 
+	cursor.no_hardware_cursors = true;
+
 	fonts.packages = with pkgs; [
 		font-awesome
 		fira-code
