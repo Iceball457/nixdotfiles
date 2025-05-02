@@ -6,6 +6,7 @@
 		kitty
 		wofi
 		waybar
+		font-awesome
 		hyprpaper
 	];
 }
