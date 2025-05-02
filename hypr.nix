@@ -9,6 +9,7 @@
 		hyprpaper
 		librewolf
                 kdePackages.dolphin
+		vscode
 	];
 
 	fonts.packages = with pkgs; [
