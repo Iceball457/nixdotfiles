@@ -7,6 +7,8 @@
 		wofi
 		waybar
 		hyprpaper
+		librewolf
+                kdePackages.dolphin
 	];
 
 	fonts.packages = with pkgs; [
