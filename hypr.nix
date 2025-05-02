@@ -7,8 +7,5 @@
 		wofi
 		waybar
 		hyprpaper
-		xdg-desktop-portal-hyprland
-		xdg-desktop-portal-gtk
-		
 	];
 }
