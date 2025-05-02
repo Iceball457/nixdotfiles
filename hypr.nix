@@ -1,4 +1,4 @@
-{ pkgs, cursor, home, ... }:
+{ pkgs, ... }:
 {
 	programs.hyprland.enable = true;
 
@@ -17,10 +17,12 @@
 
 	# cursor.no_hardware_cursors = true;
 
-	home.pointerCursor = {
-		gtk.enable = true;
-		package = pkgs.nordzy-cursor-theme;
-	};
+	environment.variables = { WLR_NO_HARDWARE_CURSORS="1" };
+
+	# home.pointerCursor = {
+	# 	gtk.enable = true;
+	# 	package = pkgs.nordzy-cursor-theme;
+	# };
 
 	fonts.packages = with pkgs; [
 		font-awesome
