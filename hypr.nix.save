@@ -6,12 +6,8 @@
 		kitty
 		wofi
 		waybar
+		ttf-font-awesome
 		hyprpaper
-	];
-
-	fonts.packages = with pkgs; [
-		fonts-awesome
-		fira-code
-		fira-code-symbols
+		wlr-randr
 	];
 }
