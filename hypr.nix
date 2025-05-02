@@ -4,7 +4,7 @@
 
 	environment.systemPackages = with pkgs; [
 		kitty
-		hyprlauncher
+		wwofi
 		waybar
 		hyprpaper
 		xdg-desktop-portal-hyprland
