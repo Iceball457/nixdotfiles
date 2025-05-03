@@ -1,0 +1,12 @@
+2025-05-02 06:24:01.221 [info] [main] Log level: Info
+2025-05-02 06:24:01.221 [info] [main] Validating found git in: "git"
+2025-05-02 06:24:01.282 [info] [main] Using git "2.49.0" from "git"
+2025-05-02 06:24:01.282 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-02 06:24:01.464 [info] > git rev-parse --show-toplevel [172ms]
+2025-05-02 06:24:01.470 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-02 06:24:01.479 [info] [Model][openRepository] Opened repository: /home/frosti/.nixos
+2025-05-02 06:24:01.482 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-02 06:24:01.494 [info] > git config --get commit.template [4ms]
+2025-05-02 06:24:01.497 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-02 06:24:01.516 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [19ms]
+2025-05-02 06:24:01.828 [info] > git ls-files --stage -- configuration.nix [39ms]

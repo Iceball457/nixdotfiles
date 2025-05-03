@@ -1,0 +1,98 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "9ebf33131ac871c6b4055d0db33b582ece96628b4405754519c8c6557f0e4a88",
+    "telemetry.devDeviceId": "5935587b-f77d-4cc2-a92c-6c223005b3b2",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/frosti/.config/hypr"
+            },
+            {
+                "folderUri": "file:///home/frosti/.config"
+            },
+            {
+                "folderUri": "file:///home/frosti/.nixos"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/frosti/.nixos": "__default__profile__",
+            "file:///home/frosti/.config/waybar": "__default__profile__",
+            "file:///home/frosti/.config/hypr": "__default__profile__",
+            "file:///home/frosti/.config": "__default__profile__",
+            "file:///home/frosti": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 393,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/frosti/.nixos",
+            "backupPath": "/home/frosti/.config/Code/Backups/93c54203434224f0d5c21fdc37d58d82",
+            "uiState": {
+                "mode": 1,
+                "x": 2613,
+                "y": 37,
+                "width": 1222,
+                "height": 1038
+            }
+        },
+        "openedWindows": [
+            {
+                "folder": "file:///home/frosti/.config",
+                "backupPath": "/home/frosti/.config/Code/Backups/8c22e96f9dc77ea23da7a43c94321adb",
+                "uiState": {
+                    "mode": 1,
+                    "x": 2883,
+                    "y": 37,
+                    "width": 952,
+                    "height": 1038
+                }
+            },
+            {
+                "folder": "file:///home/frosti/.nixos",
+                "backupPath": "/home/frosti/.config/Code/Backups/93c54203434224f0d5c21fdc37d58d82",
+                "uiState": {
+                    "mode": 1,
+                    "x": 2613,
+                    "y": 37,
+                    "width": 1222,
+                    "height": 1038
+                }
+            }
+        ]
+    }
+}

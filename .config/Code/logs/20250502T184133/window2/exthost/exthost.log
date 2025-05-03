@@ -1,0 +1,13 @@
+2025-05-02 18:50:13.585 [info] Extension host with pid 12386 started
+2025-05-02 18:50:13.585 [info] Skipping acquiring lock for /home/frosti/.config/Code/User/workspaceStorage/2bc1c035fba6e515ccbdb1dac012edb9.
+2025-05-02 18:50:13.635 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-02 18:50:13.648 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-02 18:50:13.675 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-02 18:50:13.677 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-02 18:50:13.698 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-02 18:50:13.740 [info] Eager extensions activated
+2025-05-02 18:50:13.759 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-02 18:50:13.760 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-02 18:50:17.076 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-02 18:50:17.080 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-02 18:50:17.107 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

@@ -1,0 +1,54 @@
+* {
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+}
+
+#waybar {
+	color: darkcyan;
+	background-color: #001822;
+	margin: 0px;
+	padding: 0px;
+	transition-duration: 0;
+    border-color: cyan;
+}
+
+#workspaces button {
+    color:darkcyan;
+	background-color: transparent;
+	border: 0px;
+	border-bottom-width: 1px;
+	border-style: solid;
+    margin-right: 4px;
+	padding: 4px;
+}
+
+#workspaces > .active {
+	color:cyan;
+	text-shadow: none;
+	border-right-width: 1px;
+	border-style: solid;
+    background-color: #002230;
+    margin-right: 3px;
+}
+
+.module {
+    color:darkcyan;
+	margin-right: 4px;
+	padding: 2px;
+	background-color: transparent;
+	border: 0px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: cyan;
+}
+
+menu {
+	color: darkcyan;
+	text-shadow: none;
+	border-right-width: 1px;
+	border-style: solid;
+	background-color: #001822;
+    margin-right: 3px;
+	border-color: cyan;
+}

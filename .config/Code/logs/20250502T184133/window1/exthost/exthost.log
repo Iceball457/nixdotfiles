@@ -1,0 +1,26 @@
+2025-05-02 18:41:33.985 [info] Extension host with pid 11501 started
+2025-05-02 18:41:33.985 [info] Skipping acquiring lock for /home/frosti/.config/Code/User/workspaceStorage/be7860ca9168b50b1c00faac3935f8f9.
+2025-05-02 18:41:34.058 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-02 18:41:34.072 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-02 18:41:34.081 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-02 18:41:34.084 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-02 18:41:34.114 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-02 18:41:34.270 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-02 18:41:34.279 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-02 18:41:34.302 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-02 18:41:34.341 [info] Eager extensions activated
+2025-05-02 18:41:34.350 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-02 18:41:34.351 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-02 18:42:09.831 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-05-02 19:04:34.542 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-02 19:04:34.552 [info] Extension host with pid 11501 exiting with code 0
+2025-05-02 19:04:35.158 [info] Extension host with pid 13569 started
+2025-05-02 19:04:35.158 [info] Skipping acquiring lock for /home/frosti/.config/Code/User/workspaceStorage/ebf8403c86aa93169e4add140b63dd90.
+2025-05-02 19:04:35.179 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-02 19:04:35.194 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-02 19:04:35.228 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-02 19:04:35.231 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-02 19:04:35.253 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-02 19:04:35.296 [info] Eager extensions activated
+2025-05-02 19:04:35.303 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-02 19:04:35.304 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
