@@ -1,4 +1,7 @@
 { pkgs, ... }:
+let
+	xp_pen_pentablet = pkgs.callPackage ./xp_pen_pentablet.nix {};
+in
 {
 	programs.hyprland.enable = true;
 
