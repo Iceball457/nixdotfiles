@@ -9,6 +9,7 @@
 		hyprshot
 		librewolf
 		nautilus
+		nautilus-python
 		vscode
 		hyprcursor
 		nwg-look
