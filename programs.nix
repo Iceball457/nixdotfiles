@@ -7,6 +7,7 @@ in
 
 	environment.systemPackages = with pkgs; [
 		gimp
+		xp_pen_pentablet
 	];
 
 	fonts.packages = with pkgs; [
