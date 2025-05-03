@@ -1,3 +1,0 @@
-2025/05/03 05:09:31 logger.go:19: ERROR: No clipboard utilities available. Please install xsel, xclip, wl-clipboard or Termux:API add-on for termux-clipboard-get/set.
-2025/05/03 05:09:39 logger.go:19: ERROR: No clipboard utilities available. Please install xsel, xclip, wl-clipboard or Termux:API add-on for termux-clipboard-get/set.
-2025/05/03 05:10:11 logger.go:19: ERROR: No clipboard utilities available. Please install xsel, xclip, wl-clipboard or Termux:API add-on for termux-clipboard-get/set.
