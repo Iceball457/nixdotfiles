@@ -81,7 +81,7 @@
 		cargo
 		rustfmt
 		udiskie
-		
+		inotify-tools
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
