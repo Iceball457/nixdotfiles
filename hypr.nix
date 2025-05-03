@@ -20,6 +20,15 @@
 		graphite-gtk-theme
 		yaru-theme
 		hyprlock
+		networkmanagerapplet
+		hyprutils
+		hyprls
+		hyprshade
+		blueberry
+		nwg-dock-hyprland
+		papers
+		swayimg
+		
 	];
 
 	# cursor.no_hardware_cursors = true;

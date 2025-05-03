@@ -81,6 +81,8 @@
 		rustc
 		cargo
 		rustfmt
+		udiskie
+		
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
