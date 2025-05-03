@@ -2,13 +2,7 @@
 {
 	services.greetd = {
 		enable = true;
-		settings = rec {
-		initial_session = {
-			command = "Hyprland";
-			user = "frosti";
-		};
 	};
-};
 
 	programs.hyprland.enable = true;
 
