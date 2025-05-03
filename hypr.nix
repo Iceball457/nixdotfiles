@@ -29,6 +29,7 @@
 		swayimg
 		nwg-drawer
 		xdg-desktop-portal-gtk
+		xdg-desktop-portal-wlr
 	];
 
 	fonts.packages = with pkgs; [
