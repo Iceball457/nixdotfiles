@@ -30,7 +30,7 @@
 		nwg-drawer
 		xdg-desktop-portal-gtk
 		xdg-desktop-portal-wlr
-		hypr-gui
+		hyprgui
 	];
 
 	fonts.packages = with pkgs; [
