@@ -1,8 +1,5 @@
 {
   description = "Nixos config flake";
-  imports = [
-    ./configuration.nix
-  ];
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
