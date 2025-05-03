@@ -28,7 +28,7 @@
 		nwg-dock-hyprland
 		papers
 		swayimg
-		
+		nwg-drawer
 	];
 
 	# cursor.no_hardware_cursors = true;
