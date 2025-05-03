@@ -1,5 +1,16 @@
 { pkgs, config, ... }:
 {
+	services.greetd = {
+		enable = true;
+		settings = rec {
+		initial_session = {
+			command = "Hyprland";
+			user = "frosti";
+		};
+		default_session = initial_session;
+	};
+};
+
 	programs.hyprland.enable = true;
 
 	environment.systemPackages = with pkgs; [
@@ -31,6 +42,7 @@
 		xdg-desktop-portal-gtk
 		xdg-desktop-portal-wlr
 		clipse
+		where-is-my-sddm-theme
 	];
 
     # Let nautilus find extensions
