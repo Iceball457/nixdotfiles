@@ -4,6 +4,7 @@
 	services.displayManager.sddm.enable = true;
 
 	programs.hyprland.enable = true;
+	programs.steam.enable = true;
 
 	hardware.opentabletdriver.enable = true;
 
