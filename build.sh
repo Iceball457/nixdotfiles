@@ -1,4 +1,2 @@
-#!bin/bash/env
-
-sudo nixos-rebuild switch --flake ./#nixos
+sudo nixos-rebuild switch --flake ./#coldsnap
 

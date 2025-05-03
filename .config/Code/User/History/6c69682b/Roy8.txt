@@ -1,6 +1,0 @@
-- Simple text editor.
-- xdg-desktop-portal-hyprland
-- hyprpolkitagent
-- qt5-wayland & qt6-wayland
-- hyprpicker
-- clipse

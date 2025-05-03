@@ -1,7 +1,0 @@
-2025-05-02 06:23:52.737 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2025-05-02 06:23:52.738 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2025-05-02 06:23:52.738 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2025-05-02 06:23:52.853 [warning] Creation of workbench contribution 'workbench.contrib.chatAgentSetting' took 64ms.
-2025-05-02 06:23:54.188 [info] Started local extension host with pid 2710.
-2025-05-02 06:24:00.948 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2025-05-02 06:24:01.623 [info] [perf] Render performance baseline is 16ms
