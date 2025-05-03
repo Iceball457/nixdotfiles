@@ -2,14 +2,17 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ pkgs, ... }:
+{ inputs, pkgs, ... }:
 
 {
 	imports =
 		[ # Include the results of the hardware scan.
 			./hardware-configuration.nix
 			./hypr.nix
+			inputs.home-manager.nixosModules.default
 		];
+
+	programs.hyprland.enable = true;
 
 	# Bootloader.
 	boot.loader.systemd-boot.enable = true;
@@ -27,7 +30,7 @@
 
 	# Enable flakes
 	nix.settings.experimental-features = [ "nix-command" "flakes" ];
-
+	
 	# Set your time zone.
 	time.timeZone = "America/Los_Angeles";
 
@@ -51,6 +54,13 @@
 		isNormalUser = true;
 		description = "Frosti";
 		extraGroups = [ "networkmanager" "wheel" ];
+	};
+
+	home-manager = {
+		specialArgs = {inherit inputs; };
+		users = {
+			"frosti" = import ./home.nix;
+		};
 	};
 
 	# Allow unfree packages
