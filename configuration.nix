@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 
 {
 	imports =
@@ -46,18 +46,11 @@
 		LC_TIME = "en_US.UTF-8";
 	};
 
-	# Configure keymap in X11
-	services.xserver.xkb = {
-		layout = "us";
-		variant = "";
-	};
-
 	# Define a user account. Don't forget to set a password with ‘passwd’.
 	users.users.frosti = {
 		isNormalUser = true;
 		description = "Frosti";
 		extraGroups = [ "networkmanager" "wheel" ];
-		packages = with pkgs; [];
 	};
 
 	# Allow unfree packages

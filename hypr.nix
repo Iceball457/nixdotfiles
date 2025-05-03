@@ -37,8 +37,8 @@
 		wl-clipboard
 	];
 
-    # Let nautilus find extensions
-    environment.sessionVariables.NAUTILUS_EXTENSION_DIR = "${config.system.path}/lib/nautilus/extensions-4";
+  # Let nautilus find extensions
+  environment.sessionVariables.NAUTILUS_EXTENSION_DIR = "${config.system.path}/lib/nautilus/extensions-4";
 	environment.pathsToLink = [
       "/share/nautilus-python/extensions"
     ];
