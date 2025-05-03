@@ -7,7 +7,6 @@
 			command = "Hyprland";
 			user = "frosti";
 		};
-		default_session = initial_session;
 	};
 };
 
@@ -42,7 +41,7 @@
 		xdg-desktop-portal-gtk
 		xdg-desktop-portal-wlr
 		clipse
-		where-is-my-sddm-theme
+		wl-clipboard
 	];
 
     # Let nautilus find extensions
