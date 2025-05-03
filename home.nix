@@ -1,5 +1,7 @@
 { pkgs, config,...}:
 {
+  nixpkgs.config.allowUnfree = true;
+
   home.packages = with pkgs; [
     gimp
 		obs-studio
