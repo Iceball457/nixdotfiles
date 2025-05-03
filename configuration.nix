@@ -15,8 +15,8 @@
 	boot.loader.systemd-boot.enable = true;
 	boot.loader.efi.canTouchEfiVariables = true;
 
-	services.displayManager.sddm.enable = true;
-	services.xserver.displayManager.sddm.enable = true; 
+	services.displayManager.sddm.wayland.enable = true;
+	services.displayManager.sddm.enable = true; 
 
 	networking.hostName = "coldsnap"; # Define your hostname.
 	# networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -82,7 +82,7 @@
 		cargo
 		rustfmt
 		udiskie
-
+		
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
