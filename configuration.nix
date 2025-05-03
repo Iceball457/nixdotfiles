@@ -84,6 +84,7 @@
 		inotify-tools
 		handlr
 		usbutils
+		wev
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
