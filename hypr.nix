@@ -1,8 +1,7 @@
 { pkgs, config, ... }:
 {
-	services.greetd = {
-		enable = true;
-	};
+	services.displayManager.sddm.wayland.enable = true;
+	services.displayManager.sddm.enable = true;
 
 	programs.hyprland.enable = true;
 
