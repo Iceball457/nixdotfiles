@@ -57,7 +57,7 @@
 	};
 
 	home-manager = {
-		extraSpecialArgs = {inherit inputs; };
+		extraSpecialArgs = { inherit inputs; };
 		users = {
 			"frosti" = import ./home.nix;
 		};
