@@ -8,7 +8,6 @@
 		hyprpaper
 		hyprshot
 		librewolf
-        nautilus
 		kdePackages.dolphin
 		vscode
 		hyprcursor
