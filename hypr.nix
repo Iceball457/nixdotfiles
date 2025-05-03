@@ -29,6 +29,7 @@
 		nwg-drawer
 		xdg-desktop-portal-gtk
 		xdg-desktop-portal-wlr
+		clipse
 	];
 
 	fonts.packages = with pkgs; [
