@@ -1,10 +1,12 @@
 { pkgs, ... }:
 {	
 	hardware.opentabletdriver.enable = true;
+	programs.steam.enable = true;
 
 	environment.systemPackages = with pkgs; [
 		gimp
-		libsForQt5.xp-pen-g430-driver
+		obs-studio
+		dissent # Discord
 	];
 
 	fonts.packages = with pkgs; [
