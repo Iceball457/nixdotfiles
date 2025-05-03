@@ -82,6 +82,7 @@
 		handlr
 		usbutils
 		wev
+		nixd
 	];
 
 
