@@ -8,7 +8,8 @@
 		hyprpaper
 		hyprshot
 		librewolf
-		kdePackages.dolphin
+		nautilus
+		nautilus-open-any-terminal
 		vscode
 		hyprcursor
 		nwg-look

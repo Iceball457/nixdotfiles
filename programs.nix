@@ -7,6 +7,6 @@
 	];
 
 	fonts.packages = with pkgs; [
-		
+		gimp
 	];
 }
