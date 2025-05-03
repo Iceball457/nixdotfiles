@@ -5,6 +5,8 @@
 
 	programs.hyprland.enable = true;
 
+	hardware.opentabletdriver.enable = true;
+
 	environment.systemPackages = with pkgs; [
 		kitty
 		waybar
