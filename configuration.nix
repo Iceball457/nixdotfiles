@@ -101,6 +101,7 @@
 	# Enable the OpenSSH daemon.
 	services.openssh.enable = true;
 	services.gvfs.enable = true;
+	services.hardware.openrgb.enable = true;
 	
 	# Additional programs
 	programs.direnv.enable = true;

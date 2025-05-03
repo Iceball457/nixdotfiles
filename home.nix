@@ -1,6 +1,5 @@
 { pkgs, config,...}:
 {
-  
   home.packages = with pkgs; [
     gimp
 		obs-studio
