@@ -9,7 +9,6 @@
 		hyprshot
 		librewolf
 		nautilus
-		nautilus-open-any-terminal
 		vscode
 		hyprcursor
 		nwg-look
@@ -32,6 +31,11 @@
 		xdg-desktop-portal-wlr
 		clipse
 	];
+
+	programs.nautilus-open-any-terminal = {
+		enable = true;
+		terminal = "kitty";
+	};
 
 	fonts.packages = with pkgs; [
 		font-awesome
