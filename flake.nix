@@ -17,7 +17,7 @@
       specialArgs = {inherit inputs;};
       modules = [
         ./configuration.nix
-        inputs.home-manager.nixosModules.coldsnap
+        inputs.home-manager.nixosModules.default
       ];
     };
   };
