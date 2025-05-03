@@ -3,7 +3,7 @@
   home.packages = with pkgs; [
     gimp
 		obs-studio
-		dissent # Discord
+		discord
 		openrgb-with-all-plugins
   ];
 
