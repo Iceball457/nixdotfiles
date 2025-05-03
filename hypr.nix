@@ -28,6 +28,7 @@
 		papers
 		swayimg
 		nwg-drawer
+		xdg-desktop-portal-gtk
 	];
 
 	fonts.packages = with pkgs; [
