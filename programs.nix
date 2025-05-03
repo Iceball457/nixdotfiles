@@ -7,6 +7,7 @@
 		gimp
 		obs-studio
 		dissent # Discord
+		openrgb-with-all-plugins
 	];
 
 	fonts.packages = with pkgs; [

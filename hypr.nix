@@ -26,7 +26,7 @@
 		blueberry
 		nwg-dock-hyprland
 		papers
-		swayimg
+		oculante
 		nwg-drawer
 		xdg-desktop-portal-gtk
 		xdg-desktop-portal-wlr
