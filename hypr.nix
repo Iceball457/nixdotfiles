@@ -2,15 +2,15 @@
 {
 	services.displayManager.sddm.wayland.enable = true;
 	services.displayManager.sddm.enable = true;
-	services.pulseaudio.enable = true;
-	# security.rtkit.enable = true;
-	# services.pipewire = {
-	# 	enable = true;
-	# 	alsa.enable = true;
-	# 	alsa.support32Bit = true;
-	# 	pulse.enable = true;
-	# 	jack.enable = true;
-	# };
+	services.pulseaudio.enable = false;
+	security.rtkit.enable = true;
+	services.pipewire = {
+		enable = true;
+		alsa.enable = true;
+		alsa.support32Bit = true;
+		pulse.enable = true;
+		jack.enable = true;
+	};
 	
 
 	programs.hyprland.enable = true;
