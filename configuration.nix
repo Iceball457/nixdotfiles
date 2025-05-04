@@ -27,13 +27,15 @@
 	networking.networkmanager.enable = true;
 
 	# Enable pipewire
+	hardware.pulseaudio.enable = false;
 	services.pipewire = {
     	enable = true;
     	pulse.enable  = true;
     	alsa.enable = true;
     	alsa.support32Bit = true;
+		jack.enable = true;
 	};
-  security.rtkit.enable = true; 
+  security.rtkit.enable = true;
 
 	# Enable flakes
 	nix.settings.experimental-features = [ "nix-command" "flakes" ];
