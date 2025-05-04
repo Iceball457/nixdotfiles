@@ -103,10 +103,6 @@
 	services.openssh.enable = true;
 	services.gvfs.enable = true;
 	services.hardware.openrgb.enable = true;
-	hardware.bluetooth = {
-		enable = true;
-		powerOnBoot = true;
-	};
 	
 	# Additional programs
 	programs.direnv.enable = true;
