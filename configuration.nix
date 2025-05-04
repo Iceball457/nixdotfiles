@@ -53,8 +53,9 @@
 	users.users.frosti = {
 		isNormalUser = true;
 		description = "Frosti";
-		extraGroups = [ "networkmanager" "wheel" ];
+		extraGroups = [ "networkmanager" "wheel" "input" ];
 	};
+
 
 	home-manager = {
 		extraSpecialArgs = { inherit inputs; };
