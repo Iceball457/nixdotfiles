@@ -38,7 +38,7 @@
 		xdg-desktop-portal-wlr
 		clipse
 		wl-clipboard
-		plasma-pa
+		kdePackages.plasma-pa
 	];
 
   # Let nautilus find extensions
