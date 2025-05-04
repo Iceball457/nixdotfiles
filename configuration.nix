@@ -12,8 +12,6 @@
 			inputs.home-manager.nixosModules.default
 		];
 
-	programs.hyprland.enable = true;
-
 	# Bootloader.
 	boot.loader.systemd-boot.enable = true;
 	boot.loader.efi.canTouchEfiVariables = true;
@@ -27,6 +25,15 @@
 
 	# Enable networking
 	networking.networkmanager.enable = true;
+
+	# Enable pipewire
+	services.pipewire = {
+    	enable = true;
+    	pulse.enable  = true;
+    	alsa.enable = true;
+    	alsa.support32Bit = true;
+	};
+  security.rtkit.enable = true; 
 
 	# Enable flakes
 	nix.settings.experimental-features = [ "nix-command" "flakes" ];

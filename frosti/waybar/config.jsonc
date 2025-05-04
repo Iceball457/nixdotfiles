@@ -15,14 +15,14 @@
     "modules-right": [
         "mpd",
         // "idle_inhibitor",
-        "pulseaudio",
+        // "pulseaudio",
         "network",
         // "power-profiles-daemon",
         "cpu",
         "memory",
         "temperature",
         "backlight",
-        "keyboard-state",
+        // "keyboard-state",
         "battery",
         "clock",
         "tray",
@@ -175,7 +175,7 @@
         "on-click": "pavucontrol"
     },
     "custom/power": {
-        "format" : "⏻ ",
+        "format" : " ⏻ ",
 		"tooltip": false,
 		"menu": "on-click",
 		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder

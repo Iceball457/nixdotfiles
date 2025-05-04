@@ -38,6 +38,7 @@
 		xdg-desktop-portal-wlr
 		clipse
 		wl-clipboard
+		plasma-pa
 	];
 
   # Let nautilus find extensions
