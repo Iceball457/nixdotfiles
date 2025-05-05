@@ -48,5 +48,6 @@
 		fira-code
 		fira-code-symbols
 		noto-fonts-emoji
+		nerd-fonts.jetbrains-mono
 	];
 }
