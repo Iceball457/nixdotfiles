@@ -9,7 +9,7 @@
 	hardware.opentabletdriver.enable = true;
 
 	services.udev.extraRules = ''
-# XP-Pen Artist 24
+# XP-Pen Artist 22r
 KERNEL=="hidraw*", ATTRS{idVendor}=="28bd", ATTRS{idProduct}=="091b", TAG+="uaccess", TAG+="udev-acl"
 SUBSYSTEM=="usb", ATTRS{idVendor}=="28bd", ATTRS{idProduct}=="091b", TAG+="uaccess", TAG+="udev-acl"
 SUBSYSTEM=="input", ATTRS{idVendor}=="28bd", ATTRS{idProduct}=="091b", ENV{LIBINPUT_IGNORE_DEVICE}="1"
