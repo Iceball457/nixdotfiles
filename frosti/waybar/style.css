@@ -16,13 +16,13 @@
 
 #workspaces button {
 	background-image: none;
-    color:darkcyan;
+	color:darkcyan;
 	background-color: transparent;
 	border: 0px;
 	border-bottom-width: 1px;
 	border-style: solid;
-    margin-left: 2px;
-    margin-right: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
 	padding: 4px;
 }
 #workspaces button:hover {
@@ -31,6 +31,11 @@
 	background-color: #002230;
 	border-color: #33ccff;
 	border-style: solid;
+}
+#workspaces button.urgent {
+	color:orange;
+	background-color: brown;
+	border-color: orange;
 }
 #workspaces .active {
 	color:#00ccff;

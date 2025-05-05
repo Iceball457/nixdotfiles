@@ -98,6 +98,7 @@
 		wev
 		nixd
 		dotnet-sdk
+		dconf
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
