@@ -17,5 +17,6 @@ while true; do
     if [ -n "$CURSOR_THEME" ]; then
         hyprctl setcursor "$CURSOR_THEME" $CURSOR_SIZE
     fi
-    inotifywait -e modify "$CURSOR_CONFIG"
+    echo $GTK_CONFIG
+    inotifywait -e modify "$GTK_CONFIG"
 done
