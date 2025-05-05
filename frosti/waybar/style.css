@@ -15,6 +15,7 @@
 }
 
 #workspaces button {
+	background-image: none;
     color:darkcyan;
 	background-color: transparent;
 	border: 0px;
@@ -25,15 +26,13 @@
 	padding: 4px;
 }
 #workspaces button:hover {
+	background-image: none;
 	color:#00ccff;
 	background-color: #002230;
-	border: 0px;
-	border-bottom-width: 1px;
 	border-color: #33ccff;
 	border-style: solid;
 }
-
-#workspaces > .active {
+#workspaces .active {
 	color:#00ccff;
 	text-shadow: none;
 	border-right-width: 1px;
