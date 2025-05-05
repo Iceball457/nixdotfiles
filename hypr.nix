@@ -41,6 +41,10 @@
 		file-roller
 		font-manager
 		mission-center
+		brightnessctl
+		hyprpicker
+		playerctl
+
 	];
 
 	fonts.packages = with pkgs; [
