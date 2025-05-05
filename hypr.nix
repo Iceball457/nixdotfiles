@@ -29,13 +29,12 @@
 		hyprls
 		hyprshade
 		blueberry
+		hyprpolkitagent
 		nwg-dock-hyprland
 		papers
 		oculante
 		nwg-drawer
 		xdg-desktop-portal-gtk
-		libsForQt5.xp-pen-deco-01-v2-driver
-		libsForQt5.xp-pen-g430-driver
 		libadwaita
 		clipse
 		wl-clipboard
