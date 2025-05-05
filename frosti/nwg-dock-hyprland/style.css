@@ -6,7 +6,7 @@
 }
 
 window {
-  background: #001822;
+	background-color: linear-gradient(90deg, #001822 0%, #100022 100%);
 }
 
 #box {
@@ -35,7 +35,7 @@ button:hover {
 	background-color: #002230;
 	padding-bottom: 3px;
 	padding-right: 3px;
-	border: #00ccff solid 0px;
+	border: linear-gradient(135deg,#33ccff 0%, #5533ff 100%) solid 0px;
 	border-bottom-width: 1px;
 	border-right-width: 1px;
 }

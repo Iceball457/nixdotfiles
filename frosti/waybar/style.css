@@ -6,11 +6,11 @@
 
 #waybar {
 	color: darkcyan;
-	background-color: #001822;
+	background-color: linear-gradient(90deg, #001822 0%, #100022 100%);
 	margin: 0px;
 	padding: 0px;
 	transition-duration: 0;
-    border-color: #00ccff;
+	border-color: linear-gradient(135deg,#33ccff 0%, #5533ff 100%);
 }
 
 #workspaces button {
@@ -22,12 +22,21 @@
     margin-right: 4px;
 	padding: 4px;
 }
+#workspaces button:hover {
+	color:#00ccff;
+	background-color: #002230;
+	border: 0px;
+	border-bottom-width: 1px;
+	border-color: linear-gradient(135deg,#33ccff 0%, #5533ff 100%);
+	border-style: solid;
+}
 
 #workspaces > .active {
 	color:#00ccff;
 	text-shadow: none;
 	border-right-width: 1px;
 	border-style: solid;
+	border-color: linear-gradient(135deg,#33ccff 0%, #5533ff 100%);
     background-color: #002230;
     margin-right: 3px;
 }
@@ -40,7 +49,7 @@
 	border: 0px;
 	border-bottom: 1px;
 	border-style: solid;
-	border-color: #00ccff;
+	border-color: linear-gradient(135deg,#33ccff 0%, #5533ff 100%);
 }
 
 menu {
