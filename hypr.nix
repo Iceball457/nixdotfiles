@@ -44,7 +44,6 @@
 		brightnessctl
 		hyprpicker
 		playerctl
-
 	];
 
 	fonts.packages = with pkgs; [
