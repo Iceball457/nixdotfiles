@@ -1,4 +1,4 @@
-{ pkgs, config, ... }:
+{ pkgs, ... }:
 {
 	services.displayManager.sddm.wayland.enable = true;
 	services.displayManager.sddm.enable = true;
@@ -38,6 +38,8 @@
 		libadwaita
 		clipse
 		wl-clipboard
+		file-roller
+		font-manager
 	];
 
 	fonts.packages = with pkgs; [
