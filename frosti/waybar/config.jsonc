@@ -88,12 +88,11 @@
         }
     },
     "tray": {
-        // "icon-size": 21,
-        //"spacing": 10,
-        //    "icons": {
+        "icon-size": 24,
+        "spacing": 10
+        //"icons": {
         //    "blueman": "bluetooth"
         //},
-        "on-click": "" // Just to show the other cursor
     },
     "clock": {
         "interval": 1,
