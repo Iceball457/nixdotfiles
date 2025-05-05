@@ -40,11 +40,13 @@
 		wl-clipboard
 		file-roller
 		font-manager
+		mission-center
 	];
 
 	fonts.packages = with pkgs; [
 		font-awesome
 		fira-code
 		fira-code-symbols
+		noto-fonts-emoji
 	];
 }
