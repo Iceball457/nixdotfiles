@@ -44,6 +44,8 @@
 		brightnessctl
 		hyprpicker
 		playerctl
+		libsForQt5.qt5ct
+		kdePackages.qt6ct
 	];
 
 	fonts.packages = with pkgs; [
