@@ -4,6 +4,5 @@
 - Set sddm theme
 - Set hyprlock theme
 - Get open-tablet-drivers to support my tablet
-- Find DE software:
-    - Process/System Monitor
 - Enable dynamic linking (Double check No Boilerplate's video for this)
+- Screen selection dialogue does not respect prefer-dark theme
