@@ -106,11 +106,11 @@
     "cpu": {
         "format": "{usage}% ",
         "tooltip": false,
-        "onclick": "missioncenter"
+        "on-click": "missioncenter"
     },
     "memory": {
         "format": "{}% ",
-        "onclick": "nemo"
+        "on-click": "nemo"
     },
     "temperature": {
         // "thermal-zone": 2,
