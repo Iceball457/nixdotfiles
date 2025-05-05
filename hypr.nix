@@ -34,7 +34,7 @@
 		oculante
 		nwg-drawer
 		xdg-desktop-portal-gtk
-		xdg-desktop-portal-wlr
+		# xdg-desktop-portal-wlr
 		libadwaita
 		clipse
 		wl-clipboard
