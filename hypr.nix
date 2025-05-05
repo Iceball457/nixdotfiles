@@ -14,8 +14,7 @@
 		hyprpaper
 		hyprshot
 		librewolf
-		nautilus
-		nautilus-python
+		nemo
 		vscode
 		hyprcursor
 		nwg-look
@@ -36,20 +35,10 @@
 		nwg-drawer
 		xdg-desktop-portal-gtk
 		xdg-desktop-portal-wlr
+		libadwaita
 		clipse
 		wl-clipboard
 	];
-
-  # Let nautilus find extensions
-  environment.sessionVariables.NAUTILUS_EXTENSION_DIR = "${config.system.path}/lib/nautilus/extensions-4";
-	environment.pathsToLink = [
-      "/share/nautilus-python/extensions"
-    ];
-
-	programs.nautilus-open-any-terminal = {
-		enable = true;
-		terminal = "kitty";
-	};
 
 	fonts.packages = with pkgs; [
 		font-awesome

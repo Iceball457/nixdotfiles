@@ -6,11 +6,11 @@
 
 #waybar {
 	color: darkcyan;
-	background-color: linear-gradient(90deg, #001822 0%, #100022 100%);
+	background-image: linear-gradient(90deg, #001822 0%, #100022 100%);
 	margin: 0px;
 	padding: 0px;
 	transition-duration: 0;
-	border-color: linear-gradient(135deg,#33ccff 0%, #5533ff 100%);
+	border-color: #33ccff;
 }
 
 #workspaces button {
@@ -27,7 +27,7 @@
 	background-color: #002230;
 	border: 0px;
 	border-bottom-width: 1px;
-	border-color: linear-gradient(135deg,#33ccff 0%, #5533ff 100%);
+	border-color: #33ccff;
 	border-style: solid;
 }
 
@@ -36,7 +36,7 @@
 	text-shadow: none;
 	border-right-width: 1px;
 	border-style: solid;
-	border-color: linear-gradient(135deg,#33ccff 0%, #5533ff 100%);
+	border-color: #33ccff;
     background-color: #002230;
     margin-right: 3px;
 }
@@ -49,7 +49,7 @@
 	border: 0px;
 	border-bottom: 1px;
 	border-style: solid;
-	border-color: linear-gradient(135deg,#33ccff 0%, #5533ff 100%);
+	border-color: #33ccff;
 }
 
 menu {

@@ -7,6 +7,10 @@
 		obs-studio
 		discord
 		openrgb-with-all-plugins
+		krita
+		obsidian
+		inkscape
+		godot-mono
   ];
 
   home.file.".config/"= {

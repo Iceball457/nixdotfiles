@@ -67,6 +67,7 @@
 
 
 	home-manager = {
+		backupFileExtension = "hmb";
 		extraSpecialArgs = { inherit inputs; };
 		users = {
 			"frosti" = import ./home.nix;
@@ -96,6 +97,7 @@
 		usbutils
 		wev
 		nixd
+		dotnet-sdk
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
