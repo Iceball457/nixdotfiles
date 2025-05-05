@@ -104,11 +104,12 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false,
+        "tooltip-format": "Open Mission Center",
         "on-click": "missioncenter"
     },
     "memory": {
         "format": "{}% ",
+        "tooltip-format": "Open File Manager",
         "on-click": "nemo"
     },
     "temperature": {
