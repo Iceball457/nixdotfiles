@@ -24,8 +24,8 @@
         "backlight",
         // "keyboard-state",
         "battery",
-        "tray",
         "pulseaudio",
+        "tray",
         "custom/power"
     ],
     // Modules configuration
