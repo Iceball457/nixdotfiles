@@ -44,7 +44,7 @@
 #pulseaudio, #network, #cpu, #memory, #temperature, #battery, #clock, #tray, #custom-power {
     color:darkcyan;
 	margin-right: 4px;
-	padding: 2px;
+	padding: 8px;
 	background-color: transparent;
 	border: 0px;
 	border-bottom: 1px;

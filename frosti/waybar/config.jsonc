@@ -96,9 +96,10 @@
         // }
     },
     "clock": {
+        "format": " {:%H:%M:%S} 󱪳 {:%Y-%m-%d}"
         // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        // "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        // "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
         "format": "{usage}% ",
@@ -175,7 +176,7 @@
         "on-click": "pavucontrol"
     },
     "custom/power": {
-        "format" : " ⏻ ",
+        "format" : "⏻",
 		"tooltip": false,
 		"menu": "on-click",
 		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
