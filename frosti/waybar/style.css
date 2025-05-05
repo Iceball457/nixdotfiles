@@ -39,7 +39,7 @@
 	border-style: solid;
 	border-color: #33ccff;
     background-color: #002230;
-    margin-right: 3px;
+    margin-right: 1px;
 }
 
 #pulseaudio, #network, #cpu, #memory, #temperature, #battery, #clock, #tray, #custom-power {
