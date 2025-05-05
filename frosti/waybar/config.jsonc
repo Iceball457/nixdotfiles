@@ -96,7 +96,7 @@
     },
     "clock": {
         "interval": 1,
-        "format": " {0:%l:%M:%S %p} 󱪳 {0:%d %b %Y}",
+        "format": " {0:%r} 󱪳 {0:%x}",
         // "timezone": "America/New_York",
         // "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "tooltip": false
