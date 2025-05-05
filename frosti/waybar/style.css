@@ -13,18 +13,14 @@
 	border-color: #33ccff;
 }
 
-#module {
-	padding-right: 8px;
-	padding-left: 8px;
-}
-
 #workspaces button {
     color:darkcyan;
 	background-color: transparent;
 	border: 0px;
 	border-bottom-width: 1px;
 	border-style: solid;
-    margin-right: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
 	padding: 4px;
 }
 #workspaces button:hover {
@@ -48,13 +44,17 @@
 
 #pulseaudio, #network, #cpu, #memory, #temperature, #battery, #clock, #tray, #custom-power {
     color:darkcyan;
-	margin-right: 4px;
-	padding: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
 	background-color: transparent;
 	border: 0px;
 	border-bottom: 1px;
 	border-style: solid;
 	border-color: #33ccff;
+}
+
+#pulseaudio:hover, #cpu:hover, #memory:hover, #custom-power:hover {
+	color:#00ccff;
 }
 
 menu {

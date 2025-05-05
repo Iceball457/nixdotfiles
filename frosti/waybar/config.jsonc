@@ -96,6 +96,7 @@
         // }
     },
     "clock": {
+        "interval": 1,
         "format": " {0:%H:%M:%S} 󱪳 {0:%Y-%m-%d}",
         // "timezone": "America/New_York",
         // "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
@@ -104,10 +105,12 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false
+        "tooltip": false,
+        "onclick": "missioncenter"
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}% ",
+        "onclick": "nemo"
     },
     "temperature": {
         // "thermal-zone": 2,
