@@ -96,9 +96,10 @@
         // }
     },
     "clock": {
-        "format": " {:%H:%M:%S} 󱪳 {:%Y-%m-%d}"
+        "format": " {0:%H:%M:%S} 󱪳 {0:%Y-%m-%d}",
         // "timezone": "America/New_York",
         // "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "tooltip": false
         // "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
