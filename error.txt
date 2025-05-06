@@ -1,0 +1,49 @@
+[frosti@coldsnap:~]$ cd /home/frosti/.config/OpenTabletDriver/Plugins/BetterCalibrator
+
+[frosti@coldsnap:~/.config/OpenTabletDriver/Plugins/BetterCalibrator]$ ./calibrator.x86_64 
+Could not start dynamically linked executable: ./calibrator.x86_64
+NixOS cannot run dynamically linked executables intended for generic
+linux environments out of the box. For more information, see:
+https://nix.dev/permalink/stub-ld
+
+[frosti@coldsnap:~/.config/OpenTabletDriver/Plugins/BetterCalibrator]$ ./calibrator.x86_64 
+Godot Engine v4.2.1.stable.official.b09f793f5 - https://godotengine.org
+ERROR: Can't load Xlib dynamically.
+   at: DisplayServerX11 (platform/linuxbsd/x11/display_server_x11.cpp:5725)
+Your video card drivers seem not to support the required OpenGL 3.3 version.
+
+If possible, consider updating your video card drivers.
+
+If you recently updated your video card drivers, try rebooting.
+ERROR: Unable to create DisplayServer, all display drivers failed.
+   at: setup2 (main/main.cpp:2394)
+ERROR: Pages in use exist at exit in PagedAllocator: N7Variant5Pools11BucketLargeE
+   at: ~PagedAllocator (./core/templates/paged_allocator.h:170)
+ERROR: Pages in use exist at exit in PagedAllocator: N7Variant5Pools12BucketMediumE
+   at: ~PagedAllocator (./core/templates/paged_allocator.h:170)
+ERROR: Pages in use exist at exit in PagedAllocator: N7Variant5Pools11BucketSmallE
+   at: ~PagedAllocator (./core/templates/paged_allocator.h:170)
+ERROR: BUG: Unreferenced static string to 0: TextServerDummy
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: IPUnix
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: ResourceFormatImporterSaver
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: MovieWriterMJPEG
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: interface_added
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: TextServerAdvanced
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: ImageFormatLoader
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: ResourceFormatSaver
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: MovieWriterPNGWAV
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: ScriptLanguage
+   at: unref (core/string/string_name.cpp:129)
+ERROR: BUG: Unreferenced static string to 0: ResourceFormatLoader
+   at: unref (core/string/string_name.cpp:129)
+
+[frosti@coldsnap:~/.config/OpenTabletDriver/Plugins/BetterCalibrator]$ 
