@@ -77,6 +77,14 @@
 	# Allow unfree packages
 	nixpkgs.config.allowUnfree = true;
 
+	# Allow dynamically linked generic linux applications
+	programs.nix-ld = {
+		enable = true;
+		libraries = with pkgs; [
+			# Add libraries here
+		];
+	};
+
 	# List packages installed in system profile. To search, run:
 	environment.systemPackages = with pkgs; [
 		git
