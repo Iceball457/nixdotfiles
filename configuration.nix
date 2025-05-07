@@ -82,6 +82,7 @@
 		enable = true;
 		libraries = with pkgs; [
 			# Add libraries here
+			fuse2
 		];
 	};
 
@@ -108,7 +109,6 @@
 		dotnet-sdk
 		dconf
 		appimage-run
-		fuse2
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
