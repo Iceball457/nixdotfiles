@@ -107,7 +107,7 @@
 		nixd
 		dotnet-sdk
 		dconf
-		fuse3
+		fuse2
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
