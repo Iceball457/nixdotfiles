@@ -80,10 +80,10 @@
 	# Allow dynamically linked generic linux applications
 	programs.nix-ld = {
 		enable = true;
-		libraries = with pkgs; [
+		libraries = options.programs.nix-ld.libraries.default ++ (with pkgs; [
 			# Add libraries here
-			fuse2
-		];
+			# fuse2
+		]);
 	};
 
 	# List packages installed in system profile. To search, run:
