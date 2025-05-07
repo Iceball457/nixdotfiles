@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ inputs, pkgs, ... }:
+{ inputs, pkgs, options, ... }:
 
 {
 	imports =
@@ -84,7 +84,6 @@
 			# Add libraries here
 		];
 	};
-	programs.appimage.binfmt = true;
 
 	# List packages installed in system profile. To search, run:
 	environment.systemPackages = with pkgs; [
@@ -109,6 +108,7 @@
 		dotnet-sdk
 		dconf
 		appimage-run
+		fuse2
 	];
 
 	# Some programs need SUID wrappers, can be configured further or are
