@@ -14,7 +14,7 @@
   ];
 
   home.file.".config/"= {
-    source = ./frosti;
+    source = ./dotfiles;
     recursive = true;
   };
 
