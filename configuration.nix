@@ -82,7 +82,7 @@
 		enable = true;
 		libraries = options.programs.nix-ld.libraries.default ++ (with pkgs; [
 			# Add libraries here
-			# fuse2
+			fuse3
 		]);
 	};
 
