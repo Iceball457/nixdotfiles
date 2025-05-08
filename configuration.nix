@@ -77,23 +77,6 @@
 	# Allow unfree packages
 	nixpkgs.config.allowUnfree = true;
 
-	# Configure dconf
-	programs.dconf = {
-		enable = true;
-		profiles = {
-		  # A "user" profile with a database
-		  user.databases = [
-			{
-			  settings = {
-				"org/cinnamon/desktop/default-applications/terminal" = {
-					exec = "kitty";
-				};
-			  };
-			}
-		  ];
-		};
-	};
-
 	# Allow dynamically linked generic linux applications
 	programs.nix-ld = {
 		enable = true;
