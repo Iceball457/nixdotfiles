@@ -7,4 +7,3 @@
 - Discord file picker portal uses Nautilus despite Nemo being the only file browser installed
 - Open Tablet Driver can't change window focus in Artist Mode
     - Check vanilla drivers for window behavior: I know pressure works on vanilla drivers, you just can't change the screen size/target area.
-- Find a way to list all dependencies for dynamically linked applications
