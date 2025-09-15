@@ -22,6 +22,7 @@ SUBSYSTEM=="input", ATTRS{idVendor}=="28bd", ATTRS{idProduct}=="091b", ENV{LIBIN
 		hyprshot
 		librewolf
 		nemo
+		nemo-fileroller
 		hyprcursor
 		nwg-look
 		nordzy-cursor-theme
