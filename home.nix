@@ -3,8 +3,8 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
-    gh
-    gimp
+  		gh
+		gimp
 		obs-studio
 		discord
 		openrgb-with-all-plugins
@@ -12,7 +12,8 @@
 		obsidian
 		inkscape
 		godot-mono
-    cudatext
+		vscode
+		icu
   ];
 
   home.file.".config/"= {
