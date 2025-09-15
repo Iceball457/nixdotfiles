@@ -12,7 +12,7 @@
 		obsidian
 		inkscape
 		godot-mono
-    vscodium
+    cudatext
   ];
 
   home.file.".config/"= {
