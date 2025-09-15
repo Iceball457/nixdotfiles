@@ -206,6 +206,7 @@
 		dotnet-sdk_9
 		dconf
 		appimage-run
+		ilspycmd
 	];
 
 	environment.sessionVariables = {
