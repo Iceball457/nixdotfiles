@@ -1,9 +1,8 @@
 { pkgs,...}:
 {
-  nixpkgs.config.allowUnfree = true;
-
-  home.packages = with pkgs; [
-  		gh
+	nixpkgs.config.allowUnfree = true;
+	home.packages = with pkgs; [
+  	gh
 		gimp
 		obs-studio
 		discord
@@ -16,10 +15,14 @@
 		icu
   ];
 
-  home.file.".config/"= {
-    source = ./dotfiles;
-    recursive = true;
-  };
+	home.file.".config/"= {
+		source = ./dotfiles;
+		recursive = true;
+	};
 
-  home.stateVersion = "24.11";
+	home.stateVersion = "24.11";
+
+	environment.sessionVariables = {
+		VINTAGE_STORY = "/home/frosti/Games/vintagestory";
+	};
 }
