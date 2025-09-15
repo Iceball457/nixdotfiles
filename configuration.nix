@@ -203,7 +203,9 @@
 		usbutils
 		wev
 		nixd
-		dotnet-sdk
+		dotnet-sdk_7
+		dotnet-sdk_8
+		dotnet-sdk_9
 		dconf
 		appimage-run
 	];
