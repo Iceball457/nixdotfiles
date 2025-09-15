@@ -78,7 +78,16 @@
 	nixpkgs.config.allowUnfree = true;
 
 	# Nvidia Drivers
-	hardware.nvidia.package = config.boot.kernelPackages.nvidiaPackages.production;
+	services.xserver.videoDrivers = [ "nvidia" ];
+
+	hardware.nvidia = {
+		modesetting.enable = true;
+		powerManagement.enable = false;
+		powerManagement.finegrained = false;
+		open = false;
+		nvidiaSettings = true;
+		package = config.boot.kernelPackages.nvidiaPackages.production;
+	};
 
 	# Allow dynamically linked generic linux applications
 	programs.appimage = {
