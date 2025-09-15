@@ -208,6 +208,10 @@
 		appimage-run
 	];
 
+	environment.sessionVariables = {
+		DOTNET_ROOT = "${pkgs.dotnet-sdk}/share/dotnet";
+	};
+
 	# Some programs need SUID wrappers, can be configured further or are
 	# started in user sessions.
 	# programs.mtr.enable = true;
