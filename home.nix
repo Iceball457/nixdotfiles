@@ -22,7 +22,4 @@
 
 	home.stateVersion = "24.11";
 
-	environment.sessionVariables = {
-		VINTAGE_STORY = "/home/frosti/Games/vintagestory";
-	};
 }

@@ -210,6 +210,7 @@
 
 	environment.sessionVariables = {
 		DOTNET_ROOT = "${pkgs.dotnet-sdk}/share/dotnet";
+		VINTAGE_STORY = "/home/frosti/Games/vintagestory";
 	};
 
 	# Some programs need SUID wrappers, can be configured further or are
