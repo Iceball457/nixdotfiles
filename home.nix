@@ -3,6 +3,7 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
+    gh
     gimp
 		obs-studio
 		discord

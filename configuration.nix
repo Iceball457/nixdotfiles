@@ -78,6 +78,10 @@
 	nixpkgs.config.allowUnfree = true;
 
 	# Allow dynamically linked generic linux applications
+	programs.appimage = {
+		enable = true;
+		binfmt = true;
+	};
 	programs.nix-ld = {
 		enable = true;
 		libraries = options.programs.nix-ld.libraries.default ++ (with pkgs; [
