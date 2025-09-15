@@ -12,6 +12,7 @@
 		obsidian
 		inkscape
 		godot-mono
+    vscodium
   ];
 
   home.file.".config/"= {
