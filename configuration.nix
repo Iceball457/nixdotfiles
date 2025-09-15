@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ inputs, pkgs, options, ... }:
+{ inputs, pkgs, options, config, ... }:
 
 {
 	imports =
@@ -76,6 +76,9 @@
 
 	# Allow unfree packages
 	nixpkgs.config.allowUnfree = true;
+
+	# Nvidia Drivers
+	hardware.nvidia.package = config.boot.kernelPackages.nvidiaPackages.production;
 
 	# Allow dynamically linked generic linux applications
 	programs.appimage = {
