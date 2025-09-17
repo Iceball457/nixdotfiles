@@ -1,6 +1,6 @@
 { pkgs, ... }:
 let 
-	test_xp_driver = pkgs.callPackage /home/frosti/repos/xp_pen_22r_pro_driver/default.nix { };
+	test_xp_driver = pkgs.libsForQt5.callPackage /home/frosti/repos/xp_pen_22r_pro_driver/default.nix { };
 in {
 	services.displayManager.sddm.wayland.enable = true;
 	services.displayManager.sddm.enable = true;
