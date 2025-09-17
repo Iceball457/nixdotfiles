@@ -11,7 +11,7 @@ in {
     portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
 	};
 	imports = [
-    inputs.hyprland.nixosModules.default
+    	inputs.hyprland.nixosModules.default
 	];
 
 	programs.steam.enable = true;
