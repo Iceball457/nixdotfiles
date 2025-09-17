@@ -1,5 +1,7 @@
 { pkgs, ... }:
-{
+let 
+	test_xp_driver = pkgs.callPackage /home/frosti/repos/xp_pen_22r_pro_driver/default.nix { };
+in {
 	services.displayManager.sddm.wayland.enable = true;
 	services.displayManager.sddm.enable = true;
 
@@ -53,6 +55,7 @@ SUBSYSTEM=="input", ATTRS{idVendor}=="28bd", ATTRS{idProduct}=="091b", ENV{LIBIN
 		playerctl
 		libsForQt5.qt5ct
 		kdePackages.qt6ct
+		test_xp_driver
 	];
 
 	fonts.packages = with pkgs; [
