@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 let 
 	test_xp_driver = pkgs.libsForQt5.callPackage /home/frosti/repos/xp_pen_22r_pro_driver/default.nix { };
 in {
@@ -6,6 +6,10 @@ in {
 	services.displayManager.sddm.enable = true;
 
 	programs.hyprland.enable = true;
+	imports = [
+    inputs.hyprland.nixosModules.default
+	];
+
 	programs.steam.enable = true;
 
 	hardware.opentabletdriver.enable = true;
