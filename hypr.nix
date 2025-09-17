@@ -5,7 +5,11 @@ in {
 	services.displayManager.sddm.wayland.enable = true;
 	services.displayManager.sddm.enable = true;
 
-	programs.hyprland.enable = true;
+	programs.hyprland = {
+		enable = true;
+    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+    portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
+	};
 	imports = [
     inputs.hyprland.nixosModules.default
 	];

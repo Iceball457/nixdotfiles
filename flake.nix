@@ -6,12 +6,13 @@
 			url = "github:nix-community/home-manager";
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
+		hyprland.url = "github:hyprwm/Hyprland";
 	};
 	outputs = inputs@{ self, nixpkgs, ... }: {
 		# use "nixos", or your hostname as the name of the configuration
 		# it's a better practice than "default" shown in the video
 		nixosConfigurations.coldsnap = nixpkgs.lib.nixosSystem {
-			specialArgs = {inherit inputs; };
+			specialArgs = { inherit inputs; };
 			modules = [
 				./configuration.nix
 				./hypr.nix
