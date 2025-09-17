@@ -53,8 +53,8 @@ SUBSYSTEM=="input", ATTRS{idVendor}=="28bd", ATTRS{idProduct}=="091b", ENV{LIBIN
 		brightnessctl
 		hyprpicker
 		playerctl
-		libsForQt5.qt5ct
-		kdePackages.qt6ct
+		libsForQt5.full
+		kdePackages.full
 		test_xp_driver
 	];
 
