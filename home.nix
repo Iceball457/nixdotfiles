@@ -13,6 +13,7 @@
 		godot-mono
 		vscode
 		remmina
+		telegram-desktop
   ];
 
 	home.file.".config/"= {
