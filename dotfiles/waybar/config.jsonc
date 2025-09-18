@@ -40,6 +40,7 @@
 				"class<nm-connection-editor>": "",
 				"class<blueberry.py>": "󰂯",
 				"class<discord>": "",
+				"class<org.telegram.desktop>": "",
 				"class<org.gnome.FileRoller>": "",
 				"class<nemo>": "",
 				"class<font-manager>": "",
@@ -56,12 +57,13 @@
 				"class<obsidian>": "",
 				"class<oculante>": "",
 				"class<openrgb>": "󰌬",
-				"class<OpenTabletDriver.UX.Gtk>": "󰓶",
 				"class<org.gnome.Papers>": "",
 				"class<qt.ct>": "",
 				"class<steam>": "",
 				"class<Code>": "",
-				"class<org.pulseaudio.pavucontro>": ""
+				"class<org.pulseaudio.pavucontro>": "",
+				"class<PenTablet>":"󰻎",
+				"class<GParted>": ""
 			},
 			"format-icons": {
 				"urgent": "",
