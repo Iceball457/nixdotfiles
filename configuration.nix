@@ -219,6 +219,7 @@
 		dconf
 		appimage-run
 		ilspycmd
+		icu
 	];
 
 	environment.sessionVariables = {

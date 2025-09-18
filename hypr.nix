@@ -59,9 +59,10 @@ in {
 		brightnessctl
 		hyprpicker
 		playerctl
-		libsForQt5.full
+		libsForQt5.fulls
 		kdePackages.full
 		test_xp_driver
+		libsForQt5.partitionmanager
 	];
 
 	fonts.packages = with pkgs; [

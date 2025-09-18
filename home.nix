@@ -12,7 +12,7 @@
 		inkscape
 		godot-mono
 		vscode
-		icu
+		remmina
   ];
 
 	home.file.".config/"= {
