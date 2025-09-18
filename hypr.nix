@@ -62,6 +62,7 @@ in {
 		libsForQt5.full
 		kdePackages.full
 		test_xp_driver
+		libsForQt5.partitionmanager
 	];
 
 	fonts.packages = with pkgs; [
