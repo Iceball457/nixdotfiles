@@ -59,7 +59,7 @@ in {
 		brightnessctl
 		hyprpicker
 		playerctl
-		libsForQt5.fulls
+		libsForQt5.full
 		kdePackages.full
 		test_xp_driver
 		libsForQt5.partitionmanager
