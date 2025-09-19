@@ -246,8 +246,8 @@
 	programs.direnv.enable = true;
 
 	# Open ports in the firewall.
-	# networking.firewall.allowedTCPPorts = [ ... ];
-	# networking.firewall.allowedUDPPorts = [ ... ];
+	networking.firewall.allowedTCPPorts = [ 21 22 25565 42420 ];
+	networking.firewall.allowedUDPPorts = [ 21 22 25565 42420 ];
 	# Or disable the firewall altogether.
 	# networking.firewall.enable = false;
 
