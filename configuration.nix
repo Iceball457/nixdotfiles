@@ -228,6 +228,7 @@
 		appimage-run
 		ilspycmd
 		icu
+		canon-cups-ufr2
 	];
 
 	environment.sessionVariables = {
