@@ -35,6 +35,7 @@
     	alsa.support32Bit = true;
 		jack.enable = true;
 	};
+	services.printing.enable = true;
   security.rtkit.enable = true;
 
 	# Enable flakes
