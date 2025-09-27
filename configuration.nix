@@ -229,6 +229,7 @@
 		ilspycmd
 		icu
 		canon-cups-ufr2
+		ffmpeg
 	];
 
 	environment.sessionVariables = {
